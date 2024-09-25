@@ -1,6 +1,6 @@
 public class singleRep {
     public static void findSingleRepeted(int a[],int rep){
-        for(int i=1;i<a.length;i++){
+        for(int i=1 ;i<a.length;i++){
               rep=rep^a[i];
 
         }
